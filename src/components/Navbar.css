@@ -1,0 +1,15 @@
+@media (max-width: 479px) {
+    #navbar{
+        
+    }
+}
+
+#basic-nav-dropdown::after{
+    display: none; 
+ }
+
+ #navbar{
+     background-color: #000000;
+     position: relative;
+     padding-bottom: 25px;
+ }

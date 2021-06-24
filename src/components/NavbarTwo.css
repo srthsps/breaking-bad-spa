@@ -1,0 +1,51 @@
+@media (max-width: 479px) {
+    #navbar{
+        
+    }
+}
+
+#basic-nav-dropdown::after{
+    display: none; 
+ }
+
+ #navbar{
+     background-color: #000000;
+     position: relative;
+     display: flex;
+     flex-direction: row;
+ }
+
+ #basic-nav-dropdown{
+     color: white;
+     -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+ }
+
+ #basic-nav-dropdown:hover{
+    color:gray;
+}
+
+#basic-navbar-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+#selectform{
+border-top-left-radius: 15px;
+border-bottom-left-radius: 15px;
+outline: none;
+}
+
+#inputform{
+    outline: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#logohead{
+    
+}
